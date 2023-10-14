@@ -1,9 +1,7 @@
 import { Fragment } from "react";
 const bio_ = ` <p>
-<strong>Hello! I’m Donald Wellborn.</strong>
-Back-end &amp; Frond-end developer from UK, London. I have rich
-experience in wordpress, also I am good at Magento. I love to
-talk with you about our unique.
+<strong>Hello! I'm Halyna Podyman .</strong>
+A proactive and solution-oriented graduate in Computer Science, holding an upper second-class honours degree from London South Bank University. With a year of experience as a Junior Front End Developer, I have proficiently constructed websites following web standards, ensuring cross-browser compatibility, responsive design, and clean code practices. My passion lies in enhancing the usability of various interfaces and elevating user experience to new heights. I am now eager to expand my skills and knowledge in the field of UX design.
 </p>`;
 const AboutMe = ({ bio }) => {
   return (
@@ -25,10 +23,10 @@ const AboutMe = ({ bio }) => {
             <div className="info-list">
               <ul>
                 <li>
-                  <strong>Age . . . . .</strong> 24
+                  <strong>Age . . . . .</strong> 29
                 </li>
                 <li>
-                  <strong>Residence . . . . .</strong> USA
+                  <strong>Residence . . . . .</strong> UK
                 </li>
                 <li>
                   <strong>Freelance . . . . .</strong> Available

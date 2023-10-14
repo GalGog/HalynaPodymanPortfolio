@@ -73,7 +73,7 @@ export const ServicesClassic = () => {
             <div className="icon">
               <span className="ion ion-code" />
             </div>
-            <div className="name">Web Development</div>
+            <div className="name">Web Development </div>
             <p>
               Modern and mobile-ready website that will help you reach all of
               your marketing.

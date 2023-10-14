@@ -28,32 +28,27 @@ const RecentWorks = dynamic(
     ssr: false,
   }
 );
-const bio = `<p>I'm <strong>Demetrius Bernard</strong> author bestseller books, won the Hugo Award for Best Novel. Writing science fiction, including the New York Times bestseller. I also writes non-fiction, on subjects ranging from personal finance to astronomy to film.</p>`;
+const bio = `<p>I'm <strong>Halyna Podyman</strong> a proactive and solution-oriented graduate in Computer Science, holding an upper second-class honours degree from London South Bank University. With a year of experience as a Junior Front End Developer, I have proficiently constructed websites following web standards, ensuring cross-browser compatibility, responsive design, and clean code practices. My passion lies in enhancing the usability of various interfaces and elevating user experience to new heights. I am now eager to expand my skills and knowledge in the field of UX design. </p>`;
 
 const serviceList = [
   {
-    icon: "fa fa-book",
-    title: "Writing Books",
-    desc: "Write the argument of your book in a sentence, then stretch that out to a paragraph.",
+    icon: "fa fa-code",
+    title: "Web Development ",
+    desc: "Modern and mobile-ready website that will help you reach all of your marketing.",
+  },
+  {
+    icon: "fa fa-lightbulb-o ",
+    title: "UX Design",
+    desc: "I understand the perfect user interface should look good and work even better. I uncover problems and solve them in efficient ways to create bolder online experiences.",
   },
   {
     icon: "fa fa-video-camera",
-    title: "Screenwriting",
-    desc: "Spec scripts are feature film or television show scripts written on speculation of sale.",
-  },
-  {
-    icon: "fa fa-newspaper-o",
-    title: "Writing Newspaper",
-    desc: "news-writing style is the prose style used for news reporting in media such as television.",
-  },
-  {
-    icon: "fa fa-gamepad",
-    title: "Writing Resumes",
-    desc: "professional resume-writing service has helped over 400,000 professionals land more interviews.",
+    title: "Content creation",
+    desc: "Writing, video/photo editing, graphic design, and social media management to create compelling content.",
   },
 ];
 
-const animationText = ["Writer", "Author", "Blogger"];
+const animationText = ["UX designer", "Web Developer"];
 
 const Index7 = () => {
   return (
@@ -73,22 +68,13 @@ const Index7 = () => {
             style={{ backgroundImage: "url(images/profile6.jpg)" }}
           />
           {/* profile titles */}
-          <div className="title">Demetrius Bernard</div>
+          <div className="title">Halyna Podyman</div>
           {/*<div class="subtitle">Web Designer</div>*/}
           <TypingAnimation data={animationText} />
 
           {/* profile socials */}
           <div className="social">
-            <a target="_blank" rel="noreferrer" href="https://medium.com/">
-              <span className="fa fa-medium" />
-            </a>
-            <a target="_blank" rel="noreferrer" href="https://twitter.com/">
-              <span className="fa fa-twitter" />
-            </a>
-            <a target="_blank" rel="noreferrer" href="https://facebook.com/">
-              <span className="fa fa-facebook-f" />
-            </a>
-            <a target="_blank" rel="noreferrer" href="https://linkedin.com/">
+            <a target="_blank" rel="noreferrer" href="https://rb.gy/2ew0d">
               <span className="fa fa-linkedin" />
             </a>
           </div>
@@ -109,10 +95,8 @@ const Index7 = () => {
         <About>
           <AboutMe bio={bio} />
           <Services serviceList={serviceList} />
-          <Pricing />
-          <FunFactWriter />
           <Clients />
-          <Quote />
+          <FunFactWriter />
         </About>
         <Resume>
           <ResumeSectionWritter />

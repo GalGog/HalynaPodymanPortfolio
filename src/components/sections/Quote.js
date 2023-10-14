@@ -22,8 +22,8 @@ const Quote = () => {
                   <img src="images/man1.jpg" alt="Ryan Adlard" />
                 </div>
                 <div className="info">
-                  <div className="name">Ryan Adlard</div>
-                  <div className="company">Web Designer</div>
+                  <div className="name">Halyna Podyman</div>
+                  <div className="company">UX Designer</div>
                 </div>
                 <div className="clear" />
               </div>

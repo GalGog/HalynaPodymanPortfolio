@@ -56,7 +56,7 @@ export const FunFactWriter = () => {
     <div className="content fuct">
       {/* title */}
       <div className="title">
-        <div className="first-letter">Awards</div>
+        <div className="first-letter">Fun Facts </div>
       </div>
       {/* content */}
       <div className="row fuct-items">
@@ -64,27 +64,18 @@ export const FunFactWriter = () => {
         <div className="col col-d-3 col-t-3 col-m-6 border-line-v">
           <div className="fuct-item">
             <div className="icon">
-              <span className="fa fa-book" />
+              <span className="fa fa-paw" />
             </div>
-            <div className="name">New York Book Awards</div>
+            <div className="name">Dog lover</div>
           </div>
         </div>
         {/* fuct item */}
         <div className="col col-d-3 col-t-3 col-m-6 border-line-v">
           <div className="fuct-item">
             <div className="icon">
-              <span className="fa fa-trophy" />
+              <span className="fa fa-heartbeat" />
             </div>
-            <div className="name">German Book Awards</div>
-          </div>
-        </div>
-        {/* fuct item */}
-        <div className="col col-d-3 col-t-3 col-m-6 border-line-v">
-          <div className="fuct-item">
-            <div className="icon">
-              <span className="fa fa-coffee" />
-            </div>
-            <div className="name">Costa Book Award</div>
+            <div className="name">Yoga lover</div>
           </div>
         </div>
         {/* fuct item */}
@@ -93,7 +84,16 @@ export const FunFactWriter = () => {
             <div className="icon">
               <span className="fa fa-pencil" />
             </div>
-            <div className="name">Writers Guild Awards</div>
+            <div className="name">Art lover</div>
+          </div>
+        </div>
+        {/* fuct item */}
+        <div className="col col-d-3 col-t-3 col-m-6 border-line-v">
+          <div className="fuct-item">
+            <div className="icon">
+              <span className="fa fa-book" />
+            </div>
+            <div className="name">Book lover</div>
           </div>
         </div>
         <div className="clear" />
@@ -104,17 +104,14 @@ export const FunFactWriter = () => {
           <div className="revs-item">
             <div className="text">
               <div>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
-                ipsum dolor sit amet, consectetur adipiscing elit.
+                Always be learning. Humans are constant works in progress that need to receive feedback in order to grow. I am always looking at ways to challenge and improve myself, which is why in my spare time I like to participate in hackathons, read blogs, dabble in new projects and attend meetups.
               </div>
             </div>
             <div className="user">
-              <div className="img">
-                <img src="images/profile.png" alt="Ryan Adlard" />
-              </div>
+
               <div className="info">
-                <div className="name">Ryan Adlard</div>
-                <div className="company">Web Designer</div>
+                <div className="name">Halyna Podyman</div>
+                <div className="company">UX Designer</div>
               </div>
               <div className="clear" />
             </div>
