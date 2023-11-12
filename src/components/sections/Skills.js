@@ -427,7 +427,7 @@ export const SkillsWritter = () => {
   return (
     <div className="content skills">
       {/* title */}
-      <div className="title">Skills</div>
+      <div className="title">SKILLS</div>
       {/* content */}
       <div className="row">
         {/* skill item */}
@@ -435,27 +435,39 @@ export const SkillsWritter = () => {
           <div className="skills-list">
             <ul>
               <li className="border-line-h">
-                <div className="name">The Ability to Communicate</div>
+                <div className="name">HTML5 / CSS3 / Vanilla JavaScript </div>
                 <div className="progress">
                   <div className="percentage" style={{ width: "90%" }} />
                 </div>
               </li>
               <li className="border-line-h">
-                <div className="name">The Power of Observation</div>
+                <div className="name">Bootstrap 3</div>
                 <div className="progress">
                   <div className="percentage" style={{ width: "65%" }} />
                 </div>
               </li>
               <li className="border-line-h">
-                <div className="name">Reasoning and Problem Solving</div>
+                <div className="name">WordPress CMS, Shopify</div>
                 <div className="progress">
                   <div className="percentage" style={{ width: "75%" }} />
                 </div>
               </li>
               <li>
-                <div className="name">Knowledge of Grammar, Spelling</div>
+                <div className="name">GitHub, WebStorm , Jira</div>
                 <div className="progress">
                   <div className="percentage" style={{ width: "85%" }} />
+                </div>
+              </li>
+              <li>
+                <div className="name">Figma, Sketch, Adobe </div>
+                <div className="progress">
+                  <div className="percentage" style={{ width: "70%" }} />
+                </div>
+              </li>
+              <li>
+                <div className="name">React JS</div>
+                <div className="progress">
+                  <div className="percentage" style={{ width: "40%" }} />
                 </div>
               </li>
             </ul>
@@ -474,24 +486,18 @@ export const SkillsWritter = () => {
               <li className="border-line-h">
                 <div className="name">English</div>
                 <div className="progress">
-                  <div className="percentage" style={{ width: "90%" }} />
+                  <div className="percentage" style={{ width: "80%" }} />
                 </div>
               </li>
               <li className="border-line-h">
-                <div className="name">German</div>
+                <div className="name">Ukrainian</div>
                 <div className="progress">
-                  <div className="percentage" style={{ width: "60%" }} />
+                  <div className="percentage" style={{ width: "95%" }} />
                 </div>
               </li>
               <li className="border-line-h">
-                <div className="name">Italian</div>
+                <div className="name">Russian</div>
                 <div className="progress">
-                  <div className="percentage" style={{ width: "30%" }} />
-                </div>
-              </li>
-              <li>
-                <div className="name">French</div>
-                <div className="progress ">
                   <div className="percentage" style={{ width: "70%" }} />
                 </div>
               </li>
@@ -505,26 +511,28 @@ export const SkillsWritter = () => {
               <div className="icon">
                 <i className="fa fa-list" />
               </div>
-              <div className="name">Knowledge</div>
+              <div className="name">SOFT SKILLS</div>
             </div>
             <ul>
               <li>
-                <div className="name">Adaptability</div>
+                <div className="name">Problem-solving,
+                  Adaptability and flexibility
+                </div>
               </li>
               <li>
-                <div className="name">Strong Research Skills</div>
+                <div className="name">Strong Research Skills </div>
               </li>
               <li>
-                <div className="name">The Ability to Get Focused</div>
+                <div className="name">Time management, professional approach to cost and deadlines(Agile management) </div>
               </li>
               <li>
-                <div className="name">Communicate</div>
+                <div className="name">Open-minded, Critical thinking</div>
               </li>
               <li>
-                <div className="name">The Ability to Meet Deadlines</div>
+                <div className="name">Attention to details </div>
               </li>
               <li>
-                <div className="name">Organizational Skills</div>
+                <div className="name">Team player</div>
               </li>
             </ul>
           </div>

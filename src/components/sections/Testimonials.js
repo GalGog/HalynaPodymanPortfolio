@@ -21,7 +21,7 @@ const Testimonials = () => {
   return (
     <div className="content testimonials">
       {/* title */}
-      <div className="title">Testimonials</div>
+      <div className="title">Recommendations</div>
       {/* content */}
       <div className="row testimonials-items">
         {/* client item */}
@@ -31,16 +31,12 @@ const Testimonials = () => {
               <SwiperSlide className="item">
                 <div className="revs-item">
                   <div className="text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    A young talented and passionate front end developer with great attention to detail.
                   </div>
                   <div className="user">
-                    <div className="img">
-                      <img src="images/testi1.jpg" alt="" />
-                    </div>
                     <div className="info">
-                      <div className="name">Helen Floyd</div>
-                      <div className="company">Art Director</div>
+                      <div className="name">Dmytro Bakhtin</div>
+                      <div className="company">Full Stack Developer at Solutions Plus Limited </div>
                     </div>
                     <div className="clear" />
                   </div>
@@ -49,34 +45,12 @@ const Testimonials = () => {
               <SwiperSlide className="item">
                 <div className="revs-item">
                   <div className="text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Excellent work. A well-managed website that reflects professionalism and user-centric focus
                   </div>
                   <div className="user">
-                    <div className="img">
-                      <img src="images/testi2.jpg" alt="" />
-                    </div>
                     <div className="info">
-                      <div className="name">Robert Chase</div>
-                      <div className="company">CEO</div>
-                    </div>
-                    <div className="clear" />
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className="item">
-                <div className="revs-item">
-                  <div className="text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </div>
-                  <div className="user">
-                    <div className="img">
-                      <img src="images/testi3.png" alt="" />
-                    </div>
-                    <div className="info">
-                      <div className="name">Helen Floyd</div>
-                      <div className="company">Art Director</div>
+                      <div className="name">Rosaura</div>
+                      <div className="company">Founder of My Little Chef at Home </div>
                     </div>
                     <div className="clear" />
                   </div>

@@ -17,13 +17,13 @@ const ContactInfo = () => {
           <div className="info-list">
             <ul>
               <li>
-                <strong>Address . . . . .</strong> California, USA
+                <strong>Address . . . . .</strong> London, UK
               </li>
               <li>
-                <strong>Email . . . . .</strong> adlard@example.com
+                <strong>Email . . . . .</strong> halynapodyman@gmail.com
               </li>
               <li>
-                <strong>Phone . . . . .</strong> +123 654 78900
+                <strong>Phone . . . . .</strong> 07549854467
               </li>
               <li>
                 <strong>Freelance . . . . .</strong> Available

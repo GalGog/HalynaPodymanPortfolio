@@ -52,8 +52,10 @@ const ResumeSection = () => {
             </div>
             <div className="resume-items">
               <div className="resume-item border-line-h">
-                <div className="date">2006 - 2008</div>
-                <div className="name">Art University</div>
+                <div className="date">2019 – 2023</div>
+                <div className="name">Computer Science BSc(Hons)
+                  London South Bank University
+                </div>
                 <div className="company">New York</div>
                 <p>
                   {`Bachelor's`} Degree in Computer Science ABC Technical
@@ -256,28 +258,22 @@ export const ResumeSectionWritter = () => {
           </div>
           <div className="resume-items">
             <div className="resume-item border-line-h active">
-              <div className="date">2013 - Present</div>
-              <div className="name">Writer Director</div>
-              <div className="company">DBBooks</div>
-              <p>
-                Collaborate with creative and development teams on the execution
-                of ideas.
-              </p>
+              <div className="date">2022 - Present</div>
+              <div className="name">Freelance</div>
+              <div className="company">Self-employed</div>
+              <p></p>
             </div>
             <div className="resume-item border-line-h">
-              <div className="date">2011 - 2012</div>
-              <div className="name">Team Leader</div>
-              <div className="company">ABC Inc.</div>
-              <p>
-                A team leader is responsible for guiding a group of employees as
-                they complete a project.
-              </p>
+              <div className="date">April 2022 - July 2022</div>
+              <div className="name">Placement </div>
+              <div className="company">Wildmeta</div>
+              <p></p>
             </div>
             <div className="resume-item">
-              <div className="date">2009 - 2010</div>
-              <div className="name">Business Writer</div>
-              <div className="company">Writer Corporation.</div>
-              <p>Corporate writing is writing for business purposes.</p>
+              <div className="date">Jan 2018 – July 2020</div>
+              <div className="name">Junior Front-End Developer</div>
+              <div className="company">Solutions Plus Limited </div>
+              <p></p>
             </div>
           </div>
         </div>
@@ -291,28 +287,31 @@ export const ResumeSectionWritter = () => {
           </div>
           <div className="resume-items">
             <div className="resume-item border-line-h">
-              <div className="date">2006 - 2008</div>
-              <div className="name">New York University</div>
-              <div className="company">New York</div>
+              <div className="date">Sep 2019 –  June 2023</div>
+              <div className="name">London South Bank University</div>
+              <div className="company">London</div>
               <p>
-                New York University offers 2 Creative Writing Degree programs.
-                {`It's`} a large private university in a large city.
+                {`Bachelor's`} Degree in Computer Science BSc(Hons), London South Bank University
               </p>
             </div>
             <div className="resume-item border-line-h">
-              <div className="date">2005 - 2006</div>
-              <div className="name">Writing Course</div>
-              <div className="company">London</div>
+              <div className="date">Sep 2017 - July 2018</div>
+              <div className="name">North Hertfordshire College </div>
+              <div className="company"></div>
               <p>
-                Creative writing short courses is taught at City, University of
-                London. Develop writing skills with professional and published
-                authors.
+                Math and ESOL
+                North Hertfordshire College
+
               </p>
             </div>
             <div className="resume-item">
-              <div className="date">2004 - 2005</div>
-              <div className="name">New York School</div>
-              <div className="company">Brooklyn, NY, United States</div>
+              <div className="date">2012 – 2016</div>
+              <div className="name">Hryhoriy Skovoroda State Pedagogocal Universuty of Pereyaslav-Khmelnytsky</div>
+              <div className="company">Ukraine </div>
+              <p>
+                Bachelor’s degree in Informatics,
+                Faculty of Informatics
+              </p>
             </div>
           </div>
         </div>

@@ -111,7 +111,7 @@ export const FunFactWriter = () => {
 
               <div className="info">
                 <div className="name">Halyna Podyman</div>
-                <div className="company">UX Designer</div>
+                <div className="company"></div>
               </div>
               <div className="clear" />
             </div>
